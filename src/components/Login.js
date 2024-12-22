@@ -28,7 +28,7 @@ const Login = () => {
       localStorage.setItem("token", json.authToken);
       navigate("/");
     } else {
-      alert("incorrect credentials");
+      alert("incorrect credentials or sign-up and create an account");
       // navigate("/signup");
     }
   };
